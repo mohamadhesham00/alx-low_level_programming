@@ -11,8 +11,9 @@ int main(void)
 
 	int i;
 
-	for (i = 1; i <= 26; i++){
-		if (c != 'q'&& c != 'e')
+	for (i = 1; i <= 26; i++)
+	{
+		if (c != 'q' && c != 'e')
 			putchar(c);
 		c++;
 	}
