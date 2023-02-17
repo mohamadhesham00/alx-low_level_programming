@@ -1,6 +1,8 @@
 #include <stdio.h>
 /* 
- * this program is for for trying printf and see output from it
+ * main is for for trying printf and see output from it
+ *
+ * always return 0
  */
 
 int main(void)
