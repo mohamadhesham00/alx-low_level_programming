@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*this program is for printing sizes of some datatypes
+/**
+ * this program is for printing sizes of some datatypes
  * 
  */
 int main(void)
