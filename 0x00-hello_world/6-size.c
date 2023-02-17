@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/*this program is for printing sizes of some datatypes
+ * 
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
@@ -7,5 +9,5 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
-	return 0;
+	return (0);
 }
