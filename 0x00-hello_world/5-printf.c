@@ -1,10 +1,9 @@
 #include <stdio.h>
-/* 
- * main is for for trying printf and see output from it
+/**
+ * main - Entry point
  *
- * always return 0
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
