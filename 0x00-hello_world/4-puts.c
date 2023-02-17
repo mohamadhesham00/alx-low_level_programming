@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*
- * this is for testing puts and see its output
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
