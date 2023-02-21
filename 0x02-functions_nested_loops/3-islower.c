@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code for determing whether it's lower or upper case
- *
+ *@c : letter to be checked
  * Return: Always 0.
  */
 int _islower(int c)
