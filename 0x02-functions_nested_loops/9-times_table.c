@@ -28,9 +28,12 @@ void times_table(void)
 		}
 		else
 			_putchar(i + '0');
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
+		if (i != 81)
+		{
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+		}
 		if (i % 9  == 0 && i != 81)
 		{
 		_putchar('\n');
@@ -40,4 +43,5 @@ void times_table(void)
 		_putchar(' ');
 		}
 	}
+	_putchar('\n');
 }
