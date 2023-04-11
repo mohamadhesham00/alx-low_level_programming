@@ -19,11 +19,11 @@ unsigned int binary_to_uint(const char *b)
     }
     m = 1;
     number = 0;
-    for (i = length - 1; i >= 0;i--){
+    for (i = length - 1; i >= 0; i--){
         if (b[i] == '1')
         {
            number += m;
-           m *=2;
+           m *= 2;
         }
         else if (b[i] == '0')
             m *= 2;
